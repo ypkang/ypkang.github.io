@@ -747,7 +747,7 @@
 /* Basic */
 
 	body {
-		background-image: url("images/overlay.png"), url("images/bg.jpg");
+		background-image: url("images/overlay.png"), url("images/overflow.jpg");
 		background-repeat: repeat, no-repeat;
 		background-size: auto, 100% 100%;
 		font-family: 'Source Sans Pro', sans-serif;
@@ -1015,6 +1015,25 @@
 		ul.default li {
 			padding-left: 0.5em;
 		}
+	
+  ul.icons {
+		cursor: default;
+	}
+
+		ul.icons li {
+			display: inline-block;
+		}
+
+		ul.icons a {
+			display: inline-block;
+			width: 2.5em;
+			height: 2.5em;
+			line-height: 2.5em;
+      font-size: 2.5em;
+			text-align: center;
+			border: 0;
+		}
+
 
 	ul.actions li {
 		display: inline-block;

@@ -6,7 +6,7 @@
 -->
 <html>
 	<head>
-		<title>Astral by HTML5 UP</title>
+		<title>Yiping Kang</title>
 		<meta charset="utf-8" />
 		<meta name="viewport" content="width=device-width, initial-scale=1" />
 		<!--[if lte IE 8]><script src="assets/js/ie/html5shiv.js"></script><![endif]-->
@@ -15,6 +15,11 @@
 		<!--[if lte IE 8]><link rel="stylesheet" href="assets/css/ie8.css" /><![endif]-->
 	</head>
 	<body>
+  
+  <!-- Remove the underline and color of a hyper linke -->
+  <style type="text/css">
+  a { text-decoration : none; color : #000; }
+  </style>
 
 		<!-- Wrapper-->
 			<div id="wrapper">
@@ -22,9 +27,8 @@
 				<!-- Nav -->
 					<nav id="nav">
 						<a href="#me" class="icon fa-home active"><span>Home</span></a>
-						<a href="#work" class="icon fa-folder"><span>Work</span></a>
-						<a href="#contact" class="icon fa-envelope"><span>Contact</span></a>
-						<a href="#" class="icon fa-twitter"><span>Twitter</span></a>
+						<a href="#work" class="icon fa-folder"><span>About me</span></a>
+						<a href="#research" class="icon fa-flask"><span>Research</span></a>
 					</nav>
 
 				<!-- Main -->
@@ -33,66 +37,71 @@
 						<!-- Me -->
 							<article id="me" class="panel">
 								<header>
-									<h1>Jane Doe</h1>
-									<p>Senior Astral Projectionist</p>
+									<h1>Yiping Kang</h1>
+									<p>Ph.D. student at University of Michigan</p>
 								</header>
 								<a href="#work" class="jumplink pic">
+                  <!--
 									<span class="arrow icon fa-chevron-right"><span>See my work</span></span>
-									<img src="images/me.jpg" alt="" />
+                  -->
+									<img src="images/photo.jpg" alt="" />
 								</a>
 							</article>
 
 						<!-- Work -->
 							<article id="work" class="panel">
 								<header>
-									<h2>Work</h2>
+									<h2>About me</h2>
 								</header>
-								<p>
-									Phasellus enim sapien, blandit ullamcorper elementum eu, condimentum eu elit.
-									Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia
-									luctus elit eget interdum.
+								<p> I am a Ph.D. student in the Computer Science Engineering (CSE) department at the University of Michigan. Advised by <a href="http://jasonmars.org">Jason Mars</a>, <a href="http://lingjia.org">Lingjia Tang</a> and <a href="http://web.eecs.umich.edu/~tnm/">Trevor Mudge</a> and affiliated with the <a href="https://www.eecs.umich.edu/celab/">Computer Engineering Lab (CELab)</a>. My research interests are in system design and intelligent applications.
 								</p>
+                <header>
+                  <h2> Education</h2>
+                </header>
+	              University of Michigan, Ann Arbor, MI, USA
+	              <ul>
+	              <li>Ph.D. in Computer Science Engineering, September 2014 - present</li>
+	              <li>M.S. in Computer Science Engineering, September 2014 - present</li>
+	              <li>B.S.E. in Computer Engineering, September 2012 - April 2014</li>
+	              </ul>
+	              Shanghai Jiaotong University, Shanghai, China
+	              <ul>
+	              <li>B.S.E. in Electrical and Computer Engineering, September 2010 - August 2014</li>
+	              </ul>
+							</article>
+
+						<!-- Research -->
+							<article id="research" class="panel">
+								<header>
+                <h2>Open source projects</h2>
+								</header>
 								<section>
 									<div class="row">
 										<div class="4u 12u$(mobile)">
-											<a href="#" class="image fit"><img src="images/pic01.jpg" alt=""></a>
+											<a href="http://djinn.clarity-lab.org" class="image fit"><img src="images/djinn-logo-black.png" alt="" style="width: 70%; height=70%"></a>
 										</div>
 										<div class="4u 12u$(mobile)">
-											<a href="#" class="image fit"><img src="images/pic02.jpg" alt=""></a>
-										</div>
-										<div class="4u$ 12u$(mobile)">
-											<a href="#" class="image fit"><img src="images/pic03.jpg" alt=""></a>
-										</div>
-										<div class="4u 12u$(mobile)">
-											<a href="#" class="image fit"><img src="images/pic04.jpg" alt=""></a>
-										</div>
-										<div class="4u 12u$(mobile)">
-											<a href="#" class="image fit"><img src="images/pic05.jpg" alt=""></a>
-										</div>
-										<div class="4u$ 12u$(mobile)">
-											<a href="#" class="image fit"><img src="images/pic06.jpg" alt=""></a>
-										</div>
-										<div class="4u 12u$(mobile)">
-											<a href="#" class="image fit"><img src="images/pic07.jpg" alt=""></a>
-										</div>
-										<div class="4u 12u$(mobile)">
-											<a href="#" class="image fit"><img src="images/pic08.jpg" alt=""></a>
-										</div>
-										<div class="4u$ 12u$(mobile)">
-											<a href="#" class="image fit"><img src="images/pic09.jpg" alt=""></a>
-										</div>
-										<div class="4u 12u$(mobile)">
-											<a href="#" class="image fit"><img src="images/pic10.jpg" alt=""></a>
-										</div>
-										<div class="4u 12u$(mobile)">
-											<a href="#" class="image fit"><img src="images/pic11.jpg" alt=""></a>
-										</div>
-										<div class="4u$ 12u$(mobile)">
-											<a href="#" class="image fit"><img src="images/pic12.jpg" alt=""></a>
+											<a href="http://sirius.clarity-lab.org" class="image fit"><img src="images/sirius-tx.png" alt="" style="width: 85%; height=85%"></a>
 										</div>
 									</div>
 								</section>
+                <header>
+                <h2>Publications</h2>
+                </header>
+	              <ul>
+                  <li><a href="downloads/hauswald15djinn.pdf">
+                    Djinn and Tonic: DNN as a Service and Its Implications for Future Warehouse Scale Computers
+                  </a><br>
+	                Johann Hauswald, Yiping Kang, Michael A. Laurenzano, Quan Chen, Cheng Li, Ron Dreslinski, Trevor Mudge, Jason Mars and Lingjia Tang.<br>
+	                <i>42th International Symposium on Computer Architecture <b>(ISCA)</b>, Portland, OR, USA, 2015. </i></li><br>
+                  <li><a href="downloads/abeyratne14.pdf">
+                    Quality-of-Service for a High-Radix Switch
+                  </a></br>
+	                Nilmini Abeyratne, Supreet Jeloka, Yiping Kang, David Blaauw, Ronald Dreslinski, Reetuparna Das and Trevor Mudge.<br>
+                  <i>51st Design Automation Conference <b>(DAC)</b>, San Francisco, CA, USA, 2014. </i></li>
+	              </ul>
 							</article>
+
 
 						<!-- Contact -->
 							<article id="contact" class="panel">
@@ -121,13 +130,20 @@
 									</div>
 								</form>
 							</article>
-
 					</div>
 
 				<!-- Footer -->
 					<div id="footer">
+            <section id="contacts">
+            	<ul class="icons">
+            		<li><a href="downloads/ypkang_cv.pdf" class="icon fa-file-pdf-o"><span class="label">curriculum vitae</span></a></li>
+            		<li><a href="https://github.com/ypkang" class="icon fa-github"><span class="label">github</span></a></li>
+            		<li><a href="https://scholar.google.com/citations?hl=en&user=iDxAty8AAAAJ&view_op=list_works&authuser=1&gmla=AJsN-F4rTJnow_LpTOA-uc3GnykyRmGY1BwqnKKzoeAgXQeYNQqpNdKkC7qH9owQlzJaWjzxAwELDIJOXw5jt0-NvWVR3UBtOOOKdMiYcxB38X8s5A4sMDk2JRZw8WWDUPTFFu-1jrXL" class="icon fa-google"><span class="label">Google Scholar</span></a></li>
+            		<li><a href="https://www.linkedin.com/profile/view?id=AAIAAAhkVD8BnbkdPGNRwSYWCe1-tcpuiXz2wsE&trk=nav_responsive_tab_profile_pic" class="icon fa-linkedin"><span class="label">LinkedIn</span></a></li>
+            	</ul>
+            </section>
 						<ul class="copyright">
-							<li>&copy; Untitled.</li><li>Design: <a href="http://html5up.net">HTML5 UP</a></li>
+							<li>&copy; Yiping Kang 2015</li><li>Designed by <a href="http://html5up.net">HTML5 UP</a></li>
 						</ul>
 					</div>
 
