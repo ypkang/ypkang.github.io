@@ -747,11 +747,11 @@
 /* Basic */
 
 	body {
-		background-image: url("images/overlay.png"), url("images/overflow.jpg");
+		background-image: url("images/overlay.png"), url("images/green_yellow.jpg");
 		background-repeat: repeat, no-repeat;
 		background-size: auto, 100% 100%;
-		font-family: 'Source Sans Pro', sans-serif;
-		font-weight: 300;
+		font-family: 'Lato', sans-serif;
+		font-weight: 100;
 		color: #777777;
 	}
 
@@ -767,8 +767,8 @@
 		}
 
 	input, textarea, select {
-		font-family: 'Source Sans Pro', sans-serif;
-		font-weight: 300;
+		font-family: 'Lato', sans-serif;
+		font-weight: 100;
 		color: #777777;
 	}
 
@@ -830,7 +830,7 @@
 
 		table.default th {
 			text-align: left;
-			font-weight: 400;
+			font-weight: 100;
 			padding: 0.5em 1em 0.5em 1em;
 		}
 
@@ -842,7 +842,7 @@
 
 	form label {
 		display: block;
-		font-weight: 400;
+		font-weight: 100;
 		color: #363636;
 		margin: 0 0 1em 0;
 	}
@@ -1169,27 +1169,27 @@
 				min-height: 100%;
 				overflow-y: scroll;
 				background-attachment: fixed;
-				font-size: 14pt;
+				font-size: 12pt;
 				line-height: 1.75em;
 			}
 
 			input, textarea, select {
-				font-size: 14pt;
+				font-size: 12pt;
 				line-height: 1.75em;
 			}
 
 			h1 {
-				font-size: 2.4em;
+				font-size: 2.0em;
 				letter-spacing: -0.015em;
 			}
 
 			h2 {
-				font-size: 1.8em;
+				font-size: 1.5em;
 				letter-spacing: -0.015em;
 			}
 
 			h3, h4, h5, h6 {
-				font-size: 1.25em;
+				font-size: 1.0em;
 				letter-spacing: -0.015em;
 			}
 
